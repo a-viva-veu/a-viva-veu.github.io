@@ -10,6 +10,15 @@ github_username:  taniarascia
 # Build Settings
 sass:
   sass_dir: _sass
-include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+permalink: pretty
+
+include: ['_pages','_pages/_concerts']
+
 kramdown:
   input: GFM
