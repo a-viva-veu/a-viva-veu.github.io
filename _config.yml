@@ -1,0 +1,15 @@
+# Site Settings
+title: HTML
+email: carlossg00@hotmail.com
+description: >
+  Página del coro A Viva Veu
+baseurl: ""
+url: "http://a-viva-veu.github.io"
+#twitter_username: taniarascia
+#github_username:  taniarascia
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
