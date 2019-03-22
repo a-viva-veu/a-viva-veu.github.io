@@ -20,5 +20,15 @@ permalink: pretty
 
 include: ['_pages','_pages/concerts']
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/audios"
+    values:
+      audios: true
+
 kramdown:
   input: GFM

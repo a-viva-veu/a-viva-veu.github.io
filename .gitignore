@@ -1,4 +1,6 @@
 _site/
+assets/audios/_site
+assets/img/_site
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
