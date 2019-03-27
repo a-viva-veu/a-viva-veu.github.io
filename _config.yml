@@ -32,3 +32,6 @@ defaults:
 
 kramdown:
   input: GFM
+  
+plugins:
+  - jekyll-seo-tag
