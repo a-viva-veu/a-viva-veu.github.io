@@ -1,0 +1,26 @@
+table.concerts {
+  padding: 10px;
+
+  border-radius: 10px;
+  background-color: rgba(200, 215, 215, 0.30);
+  border-collapse: collapse;
+}
+
+table.concerts td,
+table.concerts th {
+  border: 1px solid rgba(95, 230, 230, 0.31);
+  border-radius: 10px;
+  padding:10px;
+}
+
+table.concerts th {
+  background-color: rgb(183, 203, 224);
+}
+
+
+dl > dt {
+  font-weight: bold;
+}
+dl > dd {
+  font-style: italic;
+}
